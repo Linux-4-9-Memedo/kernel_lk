@@ -33,7 +33,7 @@ DEFINES += \
 
 OBJS += \
 	$(LOCAL_DIR)/init.o \
-	$(LOCAL_DIR)/meminfo.o \
+	$(LOCAL_DIR)/meminfo.o
 
 ifneq ($(DISPLAY_USE_CONTINUOUS_SPLASH),1)
 OBJS += \
